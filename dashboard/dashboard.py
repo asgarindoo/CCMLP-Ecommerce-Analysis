@@ -53,7 +53,7 @@ min_date = all_df["order_purchase_timestamp"].min()
 max_date = all_df["order_purchase_timestamp"].max()
 
 with st.sidebar:
-    st.image("logo.png")
+    st.image("https://raw.githubusercontent.com/asgarindoo/E-commerce_Analysis/main/dashboard/logo.png")
     st.title("Retail Shop")
     st.write("Dashboard analitik penjualan online")
 
